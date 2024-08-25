@@ -1,12 +1,56 @@
-left click to place a node, right click to connect two nodes, tap space and click on a node to delete it, middle click the mouse to reset all nodes
-double click any two points to find the shortest path between them 
+Graph Pathfinding Visualizer
+Description
+This project is a graphical user interface (GUI) app developed using Pygame to visualize Dijkstra's algorithm for finding the shortest path between nodes in a graph. Users can interactively create nodes, connect them with edges, and visualize the pathfinding process.
 
-![dijkstra_colin_unsolved](https://github.com/colingalbraith/Dijkstra-Path/assets/146497900/d27a0d57-d2d5-4eec-82af-60cf28bb678c)
+Features
+Node Placement: Click to place nodes.
+Node Connection: Right-click to create edges between nodes.
+Pathfinding: Double-click on two nodes to visualize the shortest path.
+Node Deletion: Press space and click to delete a node.
+Graph Reset: Middle click to reset the graph.
+Installation
+Prerequisites
+Python 3.8 or above
+Pygame
+Numpy
+Setup
+Clone the repository and install the required packages:
 
-![dijkstra_colin_solved](https://github.com/colingalbraith/Dijkstra-Path/assets/146497900/eb4ac8dd-9fca-4a40-b879-7a6acc11fdb6)
+bash
+Copy code
+git clone https://github.com/your-username/Dijkstra-Path.git
+cd Dijkstra-Path
+pip install pygame numpy
+Usage
+Run the application:
 
-![complex_graph](https://github.com/colingalbraith/Dijkstra-Path/assets/146497900/3d489c92-fcd7-4594-a8c6-4d305e0fa3ec)
+bash
+Copy code
+python pathfinding_visualizer.py
+Controls
+Left Click: Place a node.
+Right Click: Connect two nodes.
+Middle Click: Reset the graph.
+Space + Left Click: Delete a node.
+Double Left Click: Select two nodes to visualize the shortest path.
+Screenshots
+Initial Graph Setup
 
-![dijkstra_complex_solved](https://github.com/colingalbraith/Dijkstra-Path/assets/146497900/6795806f-4c5b-4e86-8469-e871c010ef62)
 
-![dijkstra_simple_solved](https://github.com/colingalbraith/Dijkstra-Path/assets/146497900/32aa0d89-f111-423a-aa85-0cea8e06fc3b)
+Pathfinding Example
+
+
+Complex Graph Configuration
+
+
+Solved Path in a Complex Graph
+
+
+Simple Solved Path
+
+
+Contributions
+Contributions are welcome! Please read the contribution guidelines before submitting pull requests.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
