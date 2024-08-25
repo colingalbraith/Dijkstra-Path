@@ -1,7 +1,7 @@
 # Graph Pathfinding Visualizer
 
 ## Description
-This project is a graphical user interface (GUI) application developed using Pygame to visualize Dijkstra's Algorithm for finding the shortest path between nodes in a graph. Users can interactively create nodes, connect them with edges, and visualize the pathfinding process.
+A graphical user interface (GUI) application developed using Pygame to visualize Dijkstra's Algorithm for finding the shortest path between nodes in a graph. Users can interactively create nodes, connect them with edges, and visualize the pathfinding process.
 
 ## Features
 - **Node Placement**: Click to place nodes.
